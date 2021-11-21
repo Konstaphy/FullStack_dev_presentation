@@ -7,17 +7,45 @@ import Front from "./components/static/front/front";
 import Back from "./components/static/back/back";
 import Data from "./components/static/data/data";
 
-function App() {
-    return (
-        <div className="App">
-            <Navigation/>
-            <Section><Main/></Section>
-            <Section><Front/></Section>
-            <Section><Back/></Section>
-            <Section><Data/></Section>
+class App extends React.Component {
+    constructor(props) {
+        super(props);
+        this.frontendRef = React.createRef()
+        this.backendRef = React.createRef()
+        this.dataRef = React.createRef()
 
-        </div>
-    );
+        this.goFront = this.goFront.bind(this)
+        this.goBack = this.goBack.bind(this)
+        this.goData = this.goData.bind(this)
+    }
+
+    render() {
+        return (
+            <div className="App">
+                <Navigation goFront={this.goFront} goBack={this.goBack} goData={this.goData}/>
+                <Section><Main/></Section>
+                <Section><div ref={this.frontendRef}><Front/></div></Section>
+                <Section><div ref={this.backendRef}><Back/></div></Section>
+                <Section><div ref={this.dataRef}><Data/></div></Section>
+            </div>
+        );
+    }
+
+    goFront = () => {
+        this.frontendRef.current.scrollIntoView({
+            behavior: "smooth"
+        })
+    }
+    goBack = () => {
+        this.backendRef.current.scrollIntoView({
+            behavior: "smooth"
+        })
+    }
+    goData = () => {
+        this.dataRef.current.scrollIntoView({
+            behavior: "smooth"
+        })
+    }
 }
 
 export default App;
