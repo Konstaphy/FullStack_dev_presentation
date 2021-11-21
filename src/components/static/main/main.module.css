@@ -1,0 +1,28 @@
+.square{
+    display: grid;
+    height: 800px;
+    grid-template-rows: 50% 50%;
+}
+.title_box {
+    display: flex;
+    align-items: flex-end;
+}
+
+.title{
+    font-size: 96px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.description_box {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 800px 1fr;
+}
+
+.description{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+}

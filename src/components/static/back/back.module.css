@@ -1,0 +1,29 @@
+.square{
+    width: 800px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.title{
+    font-size: 96px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.block1{
+    background-color: #272727;
+    border-radius: 54px 100% 0 15px;
+}
+.block2{
+    background-color: #272727;
+    border-radius: 0 0 200px 25px;
+}
+.desc{
+    font-size: 13px;
+    text-align: right;
+    font-weight: normal;
+    padding: 5px;
+    color: #aaa;
+}
