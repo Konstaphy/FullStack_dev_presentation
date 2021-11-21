@@ -15,7 +15,15 @@ class Main extends Component {
                         на разные вещи при размышлении об этом. Чтобы сформировать своё нужно для начала понимать чем
                         они всё-таки занимаются, какие сущетсвуют этапы и подразделения. В этом вам и поможет данный
                         сайт.</p>
+                    <div className={classes.tiles}>
+                        <div className={classes.tile}/>
+                        <div className={classes.tile}/>
+                        <div className={classes.tile}/>
+                        <div className={classes.tile}/>
+                        <div className={classes.tile}/>
+                    </div>
                 </div>
+
             </div>
         );
     }

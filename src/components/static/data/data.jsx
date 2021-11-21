@@ -8,7 +8,7 @@ class Data extends Component {
                 <div className={classes.title}><p>Data</p></div>
                 <div className={classes.block1}/>
                 <div className={classes.block2}/>
-                <div className={classes.desc}>Data-science инжинер, data аналитик, разработчик баз данных - эти и многие
+                <div className={classes.desc}>Data-science инженер, data аналитик, разработчик баз данных - эти и многие
                     другие направления появились в IT сфере довольно недавно, одно из самых молодых и
                     быстро-развивающихся направлений. Задачи и необходимость группы data-программистов напрямую связана
                     с направлением и продуктом сайта. Большинство сайтов статичны и не требуют совсем или требуют

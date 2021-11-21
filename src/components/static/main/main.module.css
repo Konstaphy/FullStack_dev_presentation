@@ -23,6 +23,26 @@
 .description{
     font-size: 16px;
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
     text-align: right;
+}
+.tiles{
+    display: flex;
+    flex-direction: column;
+}
+.tile{
+    background-origin: content-box;
+    border: white 9px solid;
+    height: 19px;
+    width: 100px;
+    background-color: #000;
+}
+.tile:nth-child(2n-1){
+    margin-left: 0;
+}
+.tile:nth-child(2n){
+    margin-left: 30px;
+}
+.tile:nth-child(3n){
+    margin-left: 15px;
 }
