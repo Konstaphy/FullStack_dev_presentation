@@ -24,7 +24,7 @@ class App extends React.Component {
             <div className="App">
                 <Navigation goFront={this.goFront} goBack={this.goBack} goData={this.goData}/>
                 <Section><Main/></Section>
-                <Section><div ref={this.frontendRef}><Front/></div></Section>
+                <Section style={{'width': '100%'}}><div ref={this.frontendRef} style={{'width': '100%'}}><Front/></div></Section>
                 <Section><div ref={this.backendRef}><Back/></div></Section>
                 <Section><div ref={this.dataRef}><Data/></div></Section>
             </div>

@@ -17,6 +17,13 @@ section {
     scroll-snap-stop: always;
 }
 
+section .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 350px;
+}
+
 section:nth-of-type(even) {
     color: white;
     background: #272727;
