@@ -15,10 +15,11 @@
     display: flex;
     align-items: center;
     width: 100px;
+    z-index: 1;
 }
 
 .list li{
-    color: #666;
+    color: #d3d3d3;
     font-size: 16px;
     text-align: right;
     cursor: pointer;
