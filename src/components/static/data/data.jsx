@@ -3,6 +3,7 @@ import classes from "./data.module.css";
 import TechsBtn from "../../../Elements/techsBTN/techsBTN";
 import cover from "../../../assets/data.mp4";
 import {Video} from "../../../Elements/VideoCover/video";
+import {DatabaseData} from "./databasesData";
 
 class Data extends Component {
     render() {
@@ -22,7 +23,7 @@ class Data extends Component {
                             терабайт данных и data-разработчики и аналитики просто необходимы.
                         </div>
                     </div>
-                    <TechsBtn color="white"/>
+                    <TechsBtn color="white" data={DatabaseData}/>
                 </div>
             </>
         );
