@@ -3,6 +3,7 @@ import classes from "./back.module.css";
 import TechsBtn from "../../../Elements/techsBTN/techsBTN";
 import cover from "../../../assets/front.mp4";
 import {Video} from "../../../Elements/VideoCover/video";
+import {BackData} from "./backData";
 
 class Back extends Component {
     render() {
@@ -22,7 +23,7 @@ class Back extends Component {
                         </div>
                         <div className={classes.block2}/>
                     </div>
-                    <TechsBtn color="white"/>
+                    <TechsBtn color="white" data={BackData}/>
                 </div>
             </>
 
