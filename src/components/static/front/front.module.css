@@ -1,6 +1,6 @@
 .square{
-    width: 800px;
-    height: 800px;
+    width: 80vh;
+    height: 80vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -12,6 +12,8 @@
     justify-content: center;
     text-transform: uppercase;
     z-index: 1;
+    color: #fff;
+    padding: 0 10px;
 }
 .block1{
     background-color: #fff;

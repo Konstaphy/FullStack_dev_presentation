@@ -3,7 +3,7 @@ import classes from "./back.module.css";
 import TechsBtn from "../../../Elements/techsBTN/techsBTN";
 import cover from "../../../assets/front.mp4";
 import {Video} from "../../../Elements/VideoCover/video";
-import {BackData} from "./backData";
+import {BackData} from "../../../assets/dataRepository/backData";
 
 class Back extends Component {
     render() {

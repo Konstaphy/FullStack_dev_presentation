@@ -3,7 +3,7 @@ import classes from "./front.module.css";
 import TechsBtn from "../../../Elements/techsBTN/techsBTN";
 import cover from "../../../assets/back.mp4";
 import {Video} from "../../../Elements/VideoCover/video";
-import {FrontData} from "./frontData";
+import {FrontData} from "../../../assets/dataRepository/frontData";
 
 class Front extends Component {
     render() {

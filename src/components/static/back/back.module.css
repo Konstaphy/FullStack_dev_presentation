@@ -1,6 +1,6 @@
 .square{
-    width: 800px;
-    height: 800px;
+    width: 80vh;
+    height: 80vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -30,6 +30,6 @@
     text-align: right;
     font-weight: normal;
     padding: 10px;
-    color: white;
+    color: #aaaaaa;
     font-family: 'Rubik', sans-serif;
 }

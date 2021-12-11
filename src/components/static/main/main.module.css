@@ -2,7 +2,6 @@
     display: grid;
     height: 800px;
     grid-template-rows: 45% 55%;
-
 }
 .title_box {
     z-index: 1;
@@ -12,7 +11,7 @@
 }
 
 .title{
-    font-size: 6em;
+    font-size: 5em;
     color: #fff;
     text-align: right;
     text-transform: uppercase;
@@ -22,7 +21,7 @@
     background-color: white;
     display: grid;
     grid-template-columns: 90% 1fr;
-    margin-left: 50%;
+    margin-left: 35%;
 }
 
 .description{
@@ -32,25 +31,5 @@
     font-weight: 500;
     font-family: 'Rubik', sans-serif;
     text-align: right;
-}
-.tiles{
-    display: flex;
-    flex-direction: column;
-}
-.tile{
-    background-origin: content-box;
-    border: white 9px solid;
-    height: 19px;
-    width: 100px;
-    background-color: #000;
-}
-.tile:nth-child(2n-1){
-    margin-left: 0;
-}
-.tile:nth-child(2n){
-    margin-left: 30px;
-}
-.tile:nth-child(3n){
-    margin-left: 15px;
 }
 

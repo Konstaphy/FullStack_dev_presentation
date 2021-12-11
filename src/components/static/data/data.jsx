@@ -3,7 +3,7 @@ import classes from "./data.module.css";
 import TechsBtn from "../../../Elements/techsBTN/techsBTN";
 import cover from "../../../assets/data.mp4";
 import {Video} from "../../../Elements/VideoCover/video";
-import {DatabaseData} from "./databasesData";
+import {DatabaseData} from "../../../assets/dataRepository/databasesData";
 
 class Data extends Component {
     render() {
