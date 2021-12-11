@@ -11,14 +11,17 @@
     align-items: flex-end;
     justify-content: center;
     text-transform: uppercase;
+    z-index: 1;
 }
 .block1{
     background-color: #fff;
     border-radius: 7px 100% 0 0;
+    z-index: 1;
 }
 .block2{
     background-color: #fff;
     border-radius: 0 0 200px 20px;
+    z-index: 1;
 }
 .desc{
     font-size: 16px;
@@ -26,4 +29,5 @@
     font-family: 'Rubik', sans-serif;
     padding: 10px;
     color: #aaa;
+    z-index: 1;
 }
