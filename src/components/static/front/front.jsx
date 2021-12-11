@@ -3,6 +3,7 @@ import classes from "./front.module.css";
 import TechsBtn from "../../../Elements/techsBTN/techsBTN";
 import cover from "../../../assets/back.mp4";
 import {Video} from "../../../Elements/VideoCover/video";
+import {FrontData} from "./frontData";
 
 class Front extends Component {
     render() {
@@ -22,7 +23,7 @@ class Front extends Component {
                             некоторые подводные камни, которые и требуют большую часть времени разработчика.
                         </div>
                     </div>
-                    <TechsBtn color="white"/>
+                    <TechsBtn color="white" data={FrontData}/>
                 </div>
             </>
         );

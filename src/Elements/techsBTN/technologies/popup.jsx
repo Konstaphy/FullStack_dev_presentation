@@ -15,12 +15,14 @@ class Popup extends Component {
                     </div>
                 </div>
                 <div className={classes.wrapper}>
-                    {/*<img src="" alt="React"/>will*/}
-                    {/*<img src="" alt="Redux"/>be*/}
-                    {/*<img src="" alt="Angular"/>soon*/}
-                    <p>Will</p>
-                    <p>Be</p>
-                    <p>Soon</p>
+                    {this.props.data?.map((elem) => {
+                        return(
+                            <div className={classes.wrapper__item}>
+                                <img src={elem.image} alt={elem.title}/>
+                                <p>{elem.title}</p>
+                            </div>
+                        )
+                    })}
                 </div>
             </div>
         );
