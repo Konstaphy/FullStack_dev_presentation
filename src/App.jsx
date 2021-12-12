@@ -6,7 +6,6 @@ import { Front } from "./Components/Static/Front/front";
 import { Back } from "./Components/Static/Back/back";
 import Data from "./Components/Static/Data/data";
 
-//TODO: костя в папках приберись ну что за дела
 class App extends React.Component {
   constructor(props) {
     super(props);
