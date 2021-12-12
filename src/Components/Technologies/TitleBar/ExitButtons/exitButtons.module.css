@@ -1,0 +1,21 @@
+.buttons {
+    display: flex;
+    gap: 3px;
+}
+.close1 {
+    background-color: crimson;
+}
+
+.close2 {
+    background-color: darkgoldenrod;
+}
+
+.close3 {
+    background-color: darkseagreen;
+}
+.buttons * {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+}

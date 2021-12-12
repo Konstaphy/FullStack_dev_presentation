@@ -1,35 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Reem Kufi', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Reem Kufi", sans-serif;
 }
 
 html {
-    scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
 }
 
 section {
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
-section .content{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-right: 350px;
+section .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 350px;
 }
 
 section:nth-of-type(even) {
-    color: white;
-    background: #272727;
+  color: white;
+  background: #272727;
 }
 
 section:nth-of-type(odd) {
-    color: #272727;
-    background: white;
+  color: #272727;
+  background: white;
 }
