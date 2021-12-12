@@ -1,11 +1,11 @@
-.background__title{
-    filter: brightness(60%);
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    overflow: hidden;
+.background__title {
+  filter: brightness(40%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  overflow: hidden;
 }
