@@ -1,11 +1,10 @@
 import React from "react";
-import Section from "./Elements/section/section";
 import "./app.css";
-import Navigation from "./components/navigation/navigation";
-import Main from "./components/static/main/main";
-import Front from "./components/static/front/front";
-import Back from "./components/static/back/back";
-import Data from "./components/static/data/data";
+import { Navigation } from "./Components/Navigation/navigation";
+import { Main } from "./Components/Static/Main/main";
+import { Front } from "./Components/Static/Front/front";
+import { Back } from "./Components/Static/Back/back";
+import Data from "./Components/Static/Data/data";
 
 //TODO: костя в папках приберись ну что за дела
 class App extends React.Component {
@@ -20,23 +19,15 @@ class App extends React.Component {
     return (
       <div className="App">
         <Navigation goFront={this.goFront} goBack={this.goBack} goData={this.goData} />
-        <Section>
-          <Main />
-        </Section>
+        <Main />
         <div ref={this.frontendRef}>
-          <Section>
-            <Front />
-          </Section>
+          <Front />
         </div>
         <div ref={this.backendRef}>
-          <Section>
-            <Back />
-          </Section>
+          <Back />
         </div>
         <div ref={this.dataRef}>
-          <Section>
-            <Data />
-          </Section>
+          <Data />
         </div>
       </div>
     );

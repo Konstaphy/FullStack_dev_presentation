@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import classes from "./navigation.module.css";
 
-class Navigation extends Component {
+export class Navigation extends Component {
   render() {
     return (
       <div className={classes.nav_box}>
@@ -14,5 +14,3 @@ class Navigation extends Component {
     );
   }
 }
-
-export default Navigation;

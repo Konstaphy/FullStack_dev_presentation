@@ -10,44 +10,6 @@
   left: calc(100% - 600px);
 }
 
-.titleBar {
-  height: 30px;
-  padding: 0 7px;
-  display: flex;
-  align-items: center;
-  box-shadow: 0 2px 2px #27272727;
-  justify-content: space-between;
-  z-index: 1;
-}
-
-.title {
-  color: #272727;
-  font-weight: bold;
-  font-family: "Rubik", sans-serif;
-}
-
-.close1 {
-  background-color: crimson;
-}
-
-.close2 {
-  background-color: darkgoldenrod;
-}
-
-.close3 {
-  background-color: darkseagreen;
-}
-.buttons {
-  display: flex;
-  gap: 3px;
-}
-.buttons * {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  border-radius: 100%;
-}
-
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
