@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import classes from "./front.module.css";
 import { TechsBtn } from "../../../Elements/TechsBTN/techsBTN";
 import { FrontData } from "../../../Assets/dataRepository/frontData";
 import cover from "./../../../Assets/front.mp4";

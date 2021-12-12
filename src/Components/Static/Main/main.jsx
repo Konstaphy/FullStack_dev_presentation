@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import classes from "./main.module.css";
 import cover from "../../../Assets/cover.mp4";
 import Section from "../../../Elements/Section/section";
+import { MainDescriptionText } from "./mainDescriptionText";
 
 export class Main extends Component {
   render() {
@@ -12,13 +13,7 @@ export class Main extends Component {
             <p className={classes.title}>Full-stack web developer</p>
           </div>
           <div className={classes.description_box}>
-            <p className={classes.description}>
-              Фуллстек разработчики, кто же они? Многие говорят, что быть полноценным фуллстеком невозможно - пока
-              освоишь новые технологии фронтенда, бекенд вырастет с ещё большей, чем фронтенд скоростью, но так ли это?
-              Существует множество мнений и каждый смотрит на разные вещи при размышлении об этом. Чтобы сформировать
-              своё нужно для начала понимать чем они всё-таки занимаются, какие сущетсвуют этапы и подразделения. В этом
-              вам и поможет данный сайт.
-            </p>
+            <p className={classes.description}>{MainDescriptionText}</p>
           </div>
         </div>
       </Section>

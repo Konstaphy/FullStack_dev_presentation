@@ -17,6 +17,7 @@ export class TechsBtn extends Component {
     this.setState({ open: true });
   };
   render() {
+    if (this.state.open) return <Technologies setClosed={this.setClosed} data={this.props.data} />;
     return (
       <>
         <button
@@ -25,7 +26,6 @@ export class TechsBtn extends Component {
             this.setOpen();
           }}
         />
-        {this.state.open ? <Technologies setClosed={this.setClosed} data={this.props.data} /> : <></>}
       </>
     );
   }

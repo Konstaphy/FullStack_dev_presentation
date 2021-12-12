@@ -6,10 +6,10 @@ export class BackendDescription extends Component {
   render() {
     return (
       <div className={classes.square}>
-        <span className={classes.block1} />
+        <div className={classes.block1} />
         <span className={classes.title}>Back</span>
         <p className={classes.desc}>{BackendDescriptionText}</p>
-        <span className={classes.block2} />
+        <div className={classes.block2} />
       </div>
     );
   }
