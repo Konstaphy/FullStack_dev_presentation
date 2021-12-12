@@ -1,26 +1,26 @@
-.list{
-    list-style: none;
-    display: flex;
-    gap: 5px;
-    flex-direction: column;
-    right: 0;
-    width: 100%;
+.list {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  right: 0;
+  width: 100%;
 }
 
-.nav_box{
-    margin-right: 15px;
-    position: fixed;
-    right: 0;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    width: 100px;
-    z-index: 1;
+.nav_box {
+  margin-right: 15px;
+  position: fixed;
+  right: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  z-index: 1;
 }
 
-.list li{
-    color: #d3d3d3;
-    font-size: 16px;
-    text-align: right;
-    cursor: pointer;
+.list li {
+  color: #d3d3d3;
+  font-size: 16px;
+  text-align: right;
+  cursor: pointer;
 }
