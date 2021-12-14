@@ -25,26 +25,11 @@
     z-index: 1;
 }
 .desc {
-    font-size: 12px;
+    font-size: 16px;
     z-index: 1;
     text-align: right;
     font-weight: normal;
     padding: 10px;
     color: #aaaaaa;
     font-family: "Open Sans", sans-serif;
-}
-@media screen and (max-width: 1200px){
-    .square{
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        width: 80vw;
-    }
-    .square .block1,
-    .square .block2{
-        display: none;
-    }
-    .desc{
-        text-align: center;
-    }
 }
