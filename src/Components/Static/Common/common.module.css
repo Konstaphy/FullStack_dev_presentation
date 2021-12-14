@@ -1,9 +1,31 @@
 .commonWrapper{
-    font-size: 16px;
+display: flex;
+    justify-content: center;
+}
+
+.commonWrapper__list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 60vw;
+    align-items: center;
+}
+
+.commonWrapper__item{
+    font-size: 2vh;
     z-index: 1;
-    text-align: right;
-    font-weight: normal;
+    text-align: left;
+    font-weight: bold;
     padding: 10px;
-    color: #aaaaaa;
-    font-family: "Rubik", sans-serif;
+    color: #aaaaaaaa;
+    font-family: "Open Sans", sans-serif;
+    word-wrap: break-word;
+    transition: .7s;
+    vertical-align: center;
+}
+
+.commonWrapper__item:hover{
+    color: #fff;
+    cursor: pointer;
+    font-size: 5vh;
 }

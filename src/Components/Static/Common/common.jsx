@@ -7,8 +7,12 @@ export class Common extends Component {
   render() {
     return (
       <Section video={cover}>
-        <div className="content">
-          <div className={classes.commonWrapper}>Средние зарплаты на рынке: 100-1000к агада хуй там</div>
+        <div className={classes.commonWrapper}>
+          <ul className={classes.commonWrapper__list}>
+            <li className={classes.commonWrapper__item}>Средние зарплаты</li>
+            <li className={classes.commonWrapper__item}>Места обучения</li>
+            <li className={classes.commonWrapper__item}>Необходимые навыки</li>
+          </ul>
         </div>
       </Section>
     );
