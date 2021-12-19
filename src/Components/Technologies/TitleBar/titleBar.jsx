@@ -6,7 +6,7 @@ export class TitleBar extends Component {
   render() {
     return (
       <div className={classes.titleBar}>
-        <p className={classes.title}>Технологии</p>
+        <p className={classes.title}>{this.props.title}</p>
         <ExitButtons setClosed={this.props.setClosed} />
       </div>
     );

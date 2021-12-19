@@ -17,7 +17,11 @@ display: flex;
     text-align: left;
     font-weight: bold;
     padding: 10px;
-    color: #aaaaaaaa;
+    animation-duration: 3s;
+    animation-name: fzUp;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
     font-family: "Open Sans", sans-serif;
     word-wrap: break-word;
     transition: .7s;
@@ -26,6 +30,17 @@ display: flex;
 
 .commonWrapper__item:hover{
     color: #fff;
+    animation: none;
     cursor: pointer;
     font-size: 5vh;
+}
+
+@keyframes fzUp {
+    from {
+        color: #aaaaaa50;
+    }
+
+    to {
+        color: #aaaaaa;
+    }
 }
