@@ -37,3 +37,7 @@ section:nth-of-type(odd) {
   color: #272727;
   background: white;
 }
+
+.hidden{
+  display: none !important;
+}
