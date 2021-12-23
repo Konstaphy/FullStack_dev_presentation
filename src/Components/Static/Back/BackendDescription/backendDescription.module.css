@@ -25,11 +25,11 @@
     z-index: 1;
 }
 .desc {
-    font-size: 16px;
+    font-size: 12px;
     z-index: 1;
     text-align: right;
     font-weight: normal;
     padding: 10px;
     color: #aaaaaa;
-    font-family: "Rubik", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }

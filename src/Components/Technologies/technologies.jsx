@@ -7,7 +7,7 @@ export class Technologies extends Component {
   render() {
     return (
       <div className={classes.popUp}>
-        <TitleBar setClosed={this.props.setClosed} />
+        <TitleBar setClosed={this.props.setClosed} title={"Технологии"} />
         <TechList data={this.props.data} />
       </div>
     );

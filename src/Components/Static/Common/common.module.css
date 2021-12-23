@@ -1,0 +1,46 @@
+.commonWrapper{
+display: flex;
+    justify-content: center;
+}
+
+.commonWrapper__list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 60vw;
+    align-items: center;
+}
+
+.commonWrapper__item{
+    font-size: 2vh;
+    z-index: 1;
+    text-align: left;
+    font-weight: bold;
+    padding: 10px;
+    animation-duration: 3s;
+    animation-name: fzUp;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-family: "Open Sans", sans-serif;
+    word-wrap: break-word;
+    transition: .7s;
+    vertical-align: center;
+}
+
+.commonWrapper__item:hover{
+    color: #fff;
+    animation: none;
+    cursor: pointer;
+    font-size: 5vh;
+}
+
+@keyframes fzUp {
+    from {
+        color: #aaaaaa50;
+    }
+
+    to {
+        color: #aaaaaa;
+    }
+}

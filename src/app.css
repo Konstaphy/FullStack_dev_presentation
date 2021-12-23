@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
 * {
   margin: 0;
@@ -15,9 +15,13 @@ html {
 section {
   scroll-snap-align: start;
   scroll-snap-stop: always;
+  display: flex;
+  justify-content: center;
 }
 
 section .content {
+
+  margin-left: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -32,4 +36,8 @@ section:nth-of-type(even) {
 section:nth-of-type(odd) {
   color: #272727;
   background: white;
+}
+
+.hidden{
+  display: none !important;
 }
