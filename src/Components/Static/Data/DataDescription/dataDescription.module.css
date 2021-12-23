@@ -36,7 +36,6 @@
     .square{
         display: flex;
         flex-direction: column;
-        width: 80vw;
         height: auto;
     }
     .square .block1,
