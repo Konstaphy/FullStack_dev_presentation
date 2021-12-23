@@ -33,3 +33,20 @@
     color: #aaa;
     z-index: 1;
 }
+
+
+@media screen and (max-width: 1200px){
+    .square{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        height: auto;
+    }
+    .square .block1,
+    .square .block2{
+        display: none;
+    }
+    .desc{
+        text-align: center;
+    }
+}
