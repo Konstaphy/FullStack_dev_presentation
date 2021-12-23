@@ -44,3 +44,9 @@ display: flex;
         color: #aaaaaa;
     }
 }
+
+@media screen and (max-width: 920px){
+    .commonWrapper__list{
+        flex-direction: column;
+    }
+}

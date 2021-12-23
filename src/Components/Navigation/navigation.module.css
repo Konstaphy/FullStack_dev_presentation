@@ -24,3 +24,9 @@
   text-align: right;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1200px){
+  .nav_box{
+    display: none;
+  }
+}
