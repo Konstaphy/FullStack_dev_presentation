@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import classes from "../front.module.css";
+import classes from "./frontDescription.module.css";
 import { FrontDescriptionText } from "./frontDescriptionText";
 
 export class FrontDescription extends Component {

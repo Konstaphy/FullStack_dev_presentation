@@ -5,6 +5,7 @@ import { Main } from "./Components/Static/Main/main";
 import { Front } from "./Components/Static/Front/front";
 import { Back } from "./Components/Static/Back/back";
 import Data from "./Components/Static/Data/data";
+import { Common } from "./Components/Static/Common/common";
 
 class App extends React.Component {
   constructor(props) {
@@ -12,13 +13,17 @@ class App extends React.Component {
     this.frontendRef = React.createRef();
     this.backendRef = React.createRef();
     this.dataRef = React.createRef();
+    this.commonRef = React.createRef();
   }
 
   render() {
     return (
       <div className="App">
-        <Navigation goFront={this.goFront} goBack={this.goBack} goData={this.goData} />
+        <Navigation goFront={this.goFront} goBack={this.goBack} goData={this.goData} goCommon={this.goCommon} />
         <Main />
+        <div ref={this.commonRef}>
+          <Common />
+        </div>
         <div ref={this.frontendRef}>
           <Front />
         </div>
@@ -44,6 +49,11 @@ class App extends React.Component {
   };
   goData = () => {
     this.dataRef.current.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+  goCommon = () => {
+    this.commonRef.current.scrollIntoView({
       behavior: "smooth",
     });
   };
