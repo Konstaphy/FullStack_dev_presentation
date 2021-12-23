@@ -33,17 +33,3 @@
     color: #aaaaaa;
     font-family: "Open Sans", sans-serif;
 }
-@media screen and (max-width: 1200px){
-    .square{
-        display: flex;
-        flex-direction: column;
-        height: auto;
-    }
-    .square .block1,
-    .square .block2{
-        display: none;
-    }
-    .desc{
-        text-align: center;
-    }
-}
