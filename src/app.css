@@ -20,7 +20,6 @@ section {
 }
 
 section .content {
-
   margin-left: 80px;
   display: flex;
   align-items: center;
@@ -36,4 +35,17 @@ section:nth-of-type(even) {
 section:nth-of-type(odd) {
   color: #272727;
   background: white;
+}
+
+.hidden{
+  display: none !important;
+}
+
+@media screen and (max-width: 1200px){
+  section .content{
+    margin: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
 }
