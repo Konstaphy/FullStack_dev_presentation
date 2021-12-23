@@ -13,7 +13,6 @@
 .title {
   font-size: 5em;
   color: #fff;
-  text-align: right;
   text-transform: uppercase;
 }
 
@@ -31,4 +30,34 @@
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   text-align: right;
+}
+
+@media screen and (max-width: 1200px){
+  .title_box{
+    justify-content: center;
+  }
+  .title{
+    font-size: 50px;
+  }
+  .description_box{
+    grid-template-columns: 1fr;
+    margin: 0 auto auto;
+    max-width: 60vw;
+  }
+  .description{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .title{
+    font-size: 30px;
+  }
+  .description_box{
+    max-width: 40vw;
+    margin-top: 30px;
+  }
+  .description{
+    font-size: 12px;
+  }
 }
