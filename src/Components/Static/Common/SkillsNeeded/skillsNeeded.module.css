@@ -1,0 +1,10 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+.liststs{
+    list-style: square;
+}
+.content{
+    padding: 20px;
+}
